@@ -18,6 +18,5 @@ def portScanner():
     t2 = time.process_time()
     print("Scan time was", t2 - t1 / 60, "Minutes")
 
-    
 if __name__=='__main__':
     portScanner()
